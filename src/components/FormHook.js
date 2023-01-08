@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 const FormHook = () => {
 
     const {register, formState: { errors }, handleSubmit } = useForm();
-    // const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
     const onSubmit = (data, e) => {
         console.log(data)
